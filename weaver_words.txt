@@ -255,7 +255,6 @@ bath
 bats
 batt
 baud
-baur
 bawd
 bawl
 bawn
@@ -342,10 +341,8 @@ blae
 blag
 blah
 blat
-blay
 bleb
 bled
-blee
 blet
 blew
 blin
@@ -439,7 +436,6 @@ bros
 brow
 brrr
 brut
-buat
 buba
 bubo
 bubs
@@ -797,7 +793,6 @@ debt
 deck
 deco
 deed
-deek
 deem
 deep
 deer
@@ -820,7 +815,6 @@ dent
 deny
 dere
 derm
-dern
 derv
 desk
 deus
@@ -1176,6 +1170,7 @@ fern
 fess
 fest
 feta
+fete
 feud
 feus
 fiar
@@ -1571,6 +1566,7 @@ hams
 hand
 hang
 hank
+hant
 haps
 hard
 hare
@@ -1587,7 +1583,6 @@ hast
 hate
 hath
 hats
-haud
 haul
 haut
 have
@@ -1676,6 +1671,7 @@ hoke
 hoki
 hold
 hole
+holk
 holm
 holp
 hols
@@ -2063,7 +2059,6 @@ lant
 lanx
 laps
 lard
-lare
 lark
 larn
 lase
@@ -2093,7 +2088,6 @@ lean
 leap
 lear
 leas
-leat
 lech
 leed
 leek
@@ -2114,7 +2108,6 @@ leno
 lens
 lent
 leps
-lere
 lerp
 less
 lest
@@ -2151,7 +2144,6 @@ limn
 limo
 limp
 limy
-lind
 line
 ling
 link
@@ -2239,7 +2231,6 @@ lues
 luff
 luge
 lugs
-luke
 lull
 lulu
 lump
@@ -2305,7 +2296,6 @@ mare
 marg
 mark
 marl
-marm
 mars
 mart
 masa
@@ -2773,7 +2763,6 @@ paik
 pail
 pain
 pair
-pais
 pale
 pall
 palm
@@ -2781,7 +2770,6 @@ palp
 pals
 paly
 pams
-pand
 pane
 pang
 pans
@@ -2936,7 +2924,6 @@ pois
 poke
 poky
 pole
-polk
 poll
 polo
 polt
@@ -2948,7 +2935,6 @@ pond
 pone
 pong
 pons
-pont
 pony
 pood
 poof
@@ -3069,7 +3055,6 @@ quop
 rabi
 raca
 race
-rach
 rack
 racy
 rads
@@ -3118,7 +3103,6 @@ rays
 raze
 razz
 read
-reak
 real
 ream
 rean
@@ -3182,7 +3166,6 @@ rims
 rimu
 rimy
 rind
-rine
 ring
 rink
 rins
@@ -3214,7 +3197,6 @@ roed
 roes
 roil
 roin
-roke
 roks
 roky
 role
@@ -3222,7 +3204,6 @@ roll
 roma
 romp
 roms
-rone
 rong
 rood
 roof
@@ -3305,7 +3286,6 @@ sail
 saim
 sain
 sair
-sais
 sake
 saki
 sale
@@ -3330,7 +3310,6 @@ sass
 sate
 sati
 saul
-saut
 save
 sawn
 saws
@@ -3350,7 +3329,6 @@ scow
 scry
 scud
 scug
-scul
 scum
 scup
 scur
@@ -3358,7 +3336,6 @@ scut
 scye
 seal
 seam
-sean
 sear
 seas
 seat
@@ -3396,7 +3373,6 @@ sera
 sere
 serf
 serk
-serr
 sese
 sess
 seta
@@ -3440,7 +3416,6 @@ shwa
 sial
 sibs
 sice
-sich
 sick
 sida
 side
@@ -3450,7 +3425,6 @@ sign
 sika
 sike
 sild
-sile
 silk
 sill
 silo
@@ -3459,7 +3433,6 @@ sima
 simi
 simp
 sims
-sind
 sine
 sing
 sinh
@@ -3470,7 +3443,6 @@ sips
 sire
 siri
 sirs
-siss
 sist
 site
 sith
@@ -3591,7 +3563,6 @@ soss
 sots
 souk
 soul
-soum
 soup
 sour
 sous
@@ -3714,9 +3685,7 @@ tael
 tags
 taha
 tahr
-taig
 tail
-tais
 tait
 taka
 take
@@ -3731,7 +3700,6 @@ tame
 tamp
 tams
 tana
-tane
 tang
 tanh
 tank
@@ -3747,11 +3715,9 @@ taro
 tarp
 tars
 tart
-tash
 task
 tass
 tate
-tath
 tats
 tatt
 tatu
@@ -3761,7 +3727,6 @@ tawa
 taws
 taxa
 taxi
-tead
 teak
 teal
 team
@@ -3784,7 +3749,6 @@ tela
 teld
 tell
 tels
-telt
 teme
 temp
 tems
@@ -3853,7 +3817,6 @@ tire
 tirl
 tiro
 tirr
-tite
 titi
 tits
 tizz
@@ -3905,8 +3868,6 @@ torn
 torr
 tors
 tort
-tosa
-tose
 tosh
 toss
 tost
@@ -3928,6 +3889,7 @@ tray
 tree
 tref
 trek
+tres
 tret
 trey
 trie
@@ -4118,7 +4080,6 @@ voes
 void
 vola
 vole
-volk
 vols
 volt
 vote
@@ -4143,7 +4104,6 @@ wait
 waka
 wake
 wakf
-wald
 wale
 wali
 walk
@@ -4378,7 +4338,6 @@ yont
 yoof
 yoop
 yore
-york
 youk
 your
 yowe
