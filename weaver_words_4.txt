@@ -1442,7 +1442,6 @@ gnat
 gnaw
 gnus
 goad
-goaf
 goal
 goat
 gobo
@@ -1508,12 +1507,10 @@ gues
 guff
 guga
 guid
-gula
-gule
 gulf
 gull
 gulp
-guly
+guls
 gums
 gunk
 guns
@@ -2944,7 +2941,6 @@ pool
 poon
 poop
 poor
-poot
 pope
 pops
 pore
@@ -2959,7 +2955,6 @@ post
 posy
 pote
 pots
-pott
 pouf
 pouk
 pour
@@ -4241,7 +4236,6 @@ wont
 wood
 woof
 wool
-woon
 woos
 wops
 word

@@ -14,7 +14,7 @@ import java.nio.file.Path;
 
 public class WordList {
 	private static String letters = "qwertyuiopasdfghjklzxcvbnm";
-	private static String wordListName = "weaver_words.txt";
+	private static String wordListName = "weaver_words_4.txt";
 	
 	ArrayList<String> wordArray;
 	

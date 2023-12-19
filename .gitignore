@@ -1,8 +1,14 @@
 # Java class files
-/bin/
+*.class
 
 # Eclipse files
 .project
 .classpath 
+
+# VS Code
+*/.vscode/
+
+# Windows exicutables
+*.exe
 
 weaver_words - Copy.txt
