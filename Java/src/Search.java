@@ -99,6 +99,17 @@ public class Search {
 				System.out.println(path);
 			}
 		
+		if (args.length == 1) {
+			long start = System.nanoTime();
+			
+			for (int i = 0; i < 100; i++) {
+				s.full_search("test");
+			}
+			
+			long end = System.nanoTime();
+			System.out.println("Time(ns) : " + String.valueOf(end - start));
+		}
+		
 		else if (args.length == 2) {
 			for (String word : args) {
 				// Check that
