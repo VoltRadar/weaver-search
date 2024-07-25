@@ -12,3 +12,6 @@
 *.exe
 
 weaver_words - Copy.txt
+
+# Rust binaries
+target/

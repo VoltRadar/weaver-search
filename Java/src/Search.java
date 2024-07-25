@@ -132,3 +132,5 @@ public class Search {
 	}
 
 }
+
+// Full search runs in 80 seconds

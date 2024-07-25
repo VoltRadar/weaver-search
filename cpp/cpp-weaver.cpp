@@ -124,7 +124,9 @@ class Searcher {
         // Preform deskera search of the connected words.
         // Finds the shortest list of words between
 
-        cout << "STARTING... ";
+        vector<chrono::steady_clock::time_point> times;
+        times.reserve(256);
+
         unordered_map<string, vector<string>> optimal_paths;
         
         // Reserve the maxamum space required to store the paths
@@ -138,6 +140,10 @@ class Searcher {
         list<vector<string>> queue;
         queue.push_back(starting_path);
 
+        times.push_back(chrono::steady_clock::now());
+
+        int count = 0;
+
         while (!queue.empty()) {
             // Extend the path at the frount of the queue, adding it to the
             // list of known optimal paths
@@ -147,21 +153,38 @@ class Searcher {
             string end_word_of_path = path_to_extend[path_to_extend.size() - 1];
             optimal_paths[end_word_of_path] = path_to_extend;
 
+            times.push_back(chrono::steady_clock::now());
+
             for (string next_word : this->connected_words[end_word_of_path]) {
                 if (!optimal_paths.contains(next_word)) {
                     // Deep copy (?) of path to extend. Only add it to queue if
                     // optimal path to next_word from starting word hasn't
                     // already been found
 
-                    vector<string> new_path = path_to_extend;
+                    vector<string> new_path;
                     new_path.push_back(next_word);
                     queue.push_back(new_path);
+
                 }
                 
             }
+
+            times.push_back(chrono::steady_clock::now());
+            
+            ++count;
+            if (count == 20) {
+                break;
+            }
         }
 
-        cout << "ENDED!" << endl;
+        times.push_back(chrono::steady_clock::now());
+
+        for (int i=0; i < times.size() - 1; i++) {
+            cout << "Time " << i << " - " << i + 1 << endl;
+            cout << chrono::duration_cast<chrono::microseconds>(times[i + 1] - times[i]).count(); 
+            cout << "us" << endl;
+        }
+
         return optimal_paths;
     }
 
@@ -175,9 +198,9 @@ int main() {
     Searcher search(4);
 
     auto start = chrono::steady_clock::now();
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 1; i++) {
         auto paths = search.deskera("test");
-        cout << i << endl;
+        // cout << i << endl;
     }
 
     cout << "Time taken (ms) : ";

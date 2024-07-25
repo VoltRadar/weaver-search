@@ -1601,7 +1601,6 @@ heft
 heid
 heir
 held
-hele
 hell
 helm
 help
@@ -2263,7 +2262,6 @@ mage
 magi
 mags
 maid
-maik
 mail
 maim
 main
